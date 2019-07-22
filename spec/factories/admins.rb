@@ -3,6 +3,6 @@
 FactoryBot.define do
   factory :admin do
     name { 'admin' }
-    password_digest { 'admin' }
+    password { 'admin' }
   end
 end
