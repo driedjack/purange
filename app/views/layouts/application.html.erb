@@ -10,8 +10,9 @@
   </head>
 
   <body>
-    <div id="container">
-      <%= render 'shared/admin_header' unless controller_name == 'sessions' %>
+    <%= render 'shared/admin_navbar' unless controller_name == 'sessions' %>
+    <%= render 'shared/admin_header' unless controller_name == 'sessions' %>
+    <div class="parent">
       <%= yield %>
     </div>
   </body>
