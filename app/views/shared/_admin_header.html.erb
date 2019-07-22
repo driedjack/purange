@@ -1,0 +1,7 @@
+<% if message = notice || alert %>
+  <article class="message <%= notice ? 'is-success' : 'is-danger' %>">
+    <div class="message-body">
+      <%= message %>
+    </div>
+  </article>
+<% end %>
